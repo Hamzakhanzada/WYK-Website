@@ -5,7 +5,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color:#FFFFFF;
+    
 }
+.example::-webkit-scrollbar {
+    display: none;
+  }
 
 .top-bar {
     background-color: #F28947;
@@ -23,12 +27,21 @@ body {
 }
 
 .dropdown-menu {
-    background-color: black;
+    border-top: 1px solid white !important;
+    background-color: black !important;
+    color: white !important;
+    padding: 10px !important;
+    width: 100%;
+
+}
+.dropdown-item:hover {
     color: white;
+    background-color: black;
 }
 .dropdown-item {
-    color: white;
+    font-size: 10px;
 }
+
 .hero-section {
     background-image: url('images/Hero.jpg');
     background-size: cover;
@@ -85,6 +98,13 @@ gap: 50px;
     cursor: pointer;
     
     
+}
+.btn-tech:hover {
+    background-color: #e6683c;
+    color: white;
+}
+.btn-touch:hover {
+    background-color: #e6683c;
 }
 .form-control {
     background-color: none;
@@ -182,7 +202,8 @@ gap: 50px;
     width: 129px;
     height: 40px;
     border-radius: 8px;
-    background-color: #e6683c;
+    background-color: #F28947
+    ;
     border: none;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
@@ -256,12 +277,11 @@ body {
 
 
 
-.btn-primary {
+.btn-tech {
     width: 296px;
     height: 40px;
     padding: 10px 24px 10px 24px;
     background-color: #F28947;
-    
     border: none;
     display: flex;
     align-items: center;
@@ -350,6 +370,7 @@ body {
 
 .btn-learn-more {
     background-color: #F28947;
+
     
     color: black;
     border: none;
@@ -363,7 +384,8 @@ body {
 }
 
 .btn-learn-more:hover {
-    background-color: #ff5722;
+    background-color: #e6683c;
+    color: white;
 }
 
 .marketing-skill {
@@ -590,7 +612,11 @@ line-height: 52px;
 
 
 }
-.btn-success {
+.btn-contact-us:hover {
+    background-color: #e6683c;
+    color: white;
+}
+.btn-contact-us {
     margin-top: 32px;
     background-color: #F28947;
     height: 40px;
@@ -607,6 +633,9 @@ line-height: 52px;
     
 
     
+}
+.btn-warning:hover {
+background-color: #e6683c;
 }
 .form {
     background-color: #fef6f1;
@@ -660,6 +689,11 @@ line-height: 52px;
 
     
 
+}
+
+.submit:hover {
+    background-color: #e6683c;
+    color: white;
 }
 .submit {
     background-color: #F28947;
@@ -751,6 +785,7 @@ a:hover {
 
 
 
+
 @media screen and (min-width: 991px) {
     .applied-learning {
         height: auto;
@@ -758,7 +793,7 @@ a:hover {
     
     
     }
-    .btn-primary {
+    .btn-tech {
         width: 100%;
     }
    
@@ -774,7 +809,7 @@ a:hover {
         display: flex;
         justify-content: center;
     }
-    .btn-primary {
+    .btn-tech {
         width: 100%;
     }
     .custom-banner {
