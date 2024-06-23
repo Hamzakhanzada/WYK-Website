@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Digital Career</title>
     <link
       rel="stylesheet"
@@ -10,7 +11,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="background-color: #fff;">
+  <body class="example" style="background-color: #fff; overflow-x: hidden;">
     <div class="top-bar text-center py-2">
       <span
         >Applications for our <b>Digital Marketing</b> programme are now open in
@@ -49,7 +50,7 @@
                         Programmes
                     </a>
                     <div
-                        class="dropdown-menu bg-dark"
+                        class="dropdown-menu "
                         aria-labelledby="programmesDropdown"
                     >
                         <a class="dropdown-item" href="#">Performance Marketing</a>
@@ -77,7 +78,7 @@
                         Support us
                     </a>
                     <div
-                        class="dropdown-menu bg-dark"
+                        class="dropdown-menu "
                         aria-labelledby="supportUsDropdown"
                     >
                         <a class="dropdown-item" href="#">Performance Marketing</a>
@@ -97,7 +98,7 @@
                         About us
                     </a>
                     <div
-                        class="dropdown-menu bg-dark"
+                        class="dropdown-menu "
                         aria-labelledby="aboutUsDropdown"
                     >
                         <a class="dropdown-item" href="#">Performance Marketing</a>
@@ -181,7 +182,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -195,7 +196,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -209,7 +210,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -223,7 +224,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn  btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -237,7 +238,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -251,7 +252,7 @@
                   technical support and data analysis. It’s a varied and challenging
                   programme and a great way to get into tech.
                 </p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-tech">Learn more</a>
               </div>
             </div>
           </div>
@@ -447,7 +448,7 @@
               <p class="message-text">
                 Send us a quick message with your questions, queries or anything else and we’ll get back to you as soon as possible.
               </p>
-              <a href="#" class="btn btn-success">Contact us</a>
+              <a href="#" class="btn btn-contact-us">Contact us</a>
             </div>
           </div>
           <div class="col-md-8">
@@ -459,16 +460,16 @@
               <div class="mb-3">
                 <div class="row">
                   <div class="col-md-6">
-                    <label for="inputFirstName" class="form-label">
+                    <label for="inputFirstName" class="form-label" >
                       <span class="same-text">First Name</span> <span class="red">*</span>
                     </label>
-                    <input type="text" id="inputFirstName" class="form-control form-controls" placeholder="John" aria-describedby="firstNameHelpBlock" />
+                    <input type="text" id="inputFirstName" class="form-control form-controls"  placeholder="John" aria-describedby="firstNameHelpBlock" required/>
                   </div>
                   <div class="col-md-6">
                     <label for="inputLastName" class="form-label">
                       <span class="same-text">Last Name</span> <span class="red">*</span>
                     </label>
-                    <input type="text" id="inputLastName" class="form-control form-controls" placeholder="Doe" aria-describedby="lastNameHelpBlock" />
+                    <input type="text" id="inputLastName" class="form-control form-controls" placeholder="Doe" aria-describedby="lastNameHelpBlock" required/>
                   </div>
                 </div>
               </div>
@@ -476,19 +477,19 @@
                 <label for="inputEmail" class="form-label">
                   <span class="same-text">Email Address</span> <span class="red">*</span>
                 </label>
-                <input type="email" id="inputEmail" class="form-control form-controls" placeholder="example@example.com" aria-describedby="emailHelpBlock" />
+                <input type="email" id="inputEmail" class="form-control form-controls" placeholder="example@example.com" aria-describedby="emailHelpBlock"  required/>
               </div>
               <div class="mb-3">
                 <label for="inputMessage" class="form-label">
                   <span class="same-text">Message</span> <span class="red">*</span>
                 </label>
-                <textarea class="form-control message-control" id="inputMessage" rows="4" placeholder="Please enter your message"></textarea>
+                <textarea class="form-control message-control" id="inputMessage" rows="4" placeholder="Please enter your message" required></textarea>
               </div>
               <div class="mb-3">
                 <label for="inputSelect" class="form-label">
                   <span class="same-text">Select Option</span>
                 </label>
-                <select class="form-select" id="inputSelect" aria-label="Select Option">
+                <select class="form-select" id="inputSelect" aria-label="Select Option" required>
                   <option selected>Please Select</option>
                   <option value="1">Option 1</option>
                   <option value="2">Option 2</option>
@@ -504,51 +505,59 @@
     </section>
     <footer class="footer-section">
         <div class="container">
-            <div class="footer-content d-flex flex-wrap justify-content-between">
-                <div class="footer-column">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4 footer-column">
                     <div>
-                        <img src="images/footer-logo.png" alt="">
-                        <a href="#" class="btn btn-success us">Contact us</a>
-                        <p class="com">info@wykdigital.com</p>
+                        <a href="#">
+                            <img src="images/footer-logo.png" alt="Footer Logo">
+                        </a>
+                        <a href="#" class="btn btn-contact-us mt-2">Contact us</a>
+                        <p class="mt-2">info@wykdigital.com</p>
                         <span>+44 (0) 300 102 1649</span>
                     </div>
-                    <div class="social-icons mt-3">
-                        <img class="mx-2" src="images/tiktok-logo.png" alt="">
-                        <img class="mx-2" src="images/youtube-logo.png" alt="">
-                        <img class="mx-2" src="images/insta-logo.png" alt="">
-                        <img class="mx-2" src="images/linkedin-logo.png" alt="">
+                    <div class="d-flex mt-4">
+                        <div class="mr-3">
+                            <img src="images/Vector.svg" alt="TikTok">
+                        </div>
+                        <div class="mr-3">
+                            <img src="images/Vector (1).svg" alt="YouTube">
+                        </div>
+                        <div>
+                            <img src="images/Vector (2).svg" alt="Instagram">
+                        </div>
                     </div>
-                    <p class="copy-right mt-3">© WYK Group Limited (CLG). All rights reserved.</p>
+                    <p class="mt-3">© WYK Group Limited (CLG). All rights reserved.</p>
                 </div>
-                <div class="footer-column">
-                    <ul>
-                        <li class="bold-text"><a href="#">About Us</a></li>
-                        <li class="small-text"><a href="#">About WYK</a></li>
-                        <li class="small-text"><a href="#">Careers</a></li>
-                        <li class="small-text"><a href="#">Contact Us</a></li>
-                        <li class="small-text"><a href="#">Support Us</a></li>
+                <div class="col-md-3 col-sm-6 mb-4 footer-column">
+                    <ul class="list-unstyled">
+                        <li class="font-weight-bold"><a href="#">About Us</a></li>
+                        <li><a href="#">About WYK</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <ul>
-                        <li class="bold-text"><a href="#">Resources</a></li>
-                        <li class="small-text"><a href="#">News & Blog</a></li>
-                        <li class="small-text"><a href="#">All Programmes</a></li>
-                        <li class="small-text"><a href="#">Recruit Our Talent</a></li>
+                <div class="col-md-3 col-sm-6 mb-4 footer-column">
+                    <ul class="list-unstyled">
+                        <li class="font-weight-bold"><a href="#">Resources</a></li>
+                        <li><a href="#">News & Blog</a></li>
+                        <li><a href="#">All Programmes</a></li>
+                        <li><a href="#">Recruit Our Talent</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <ul>
-                        <li class="bold-text"><a href="#">Policies</a></li>
-                        <li class="small-text">WYK Group Limited Privacy Policy</li>
-                        <li class="small-text">WYK Group Limited ED & I Policy</li>
-                        <li class="small-text">WYK Group Limited Carbon Reduction Policy</li>
-                        <li class="small-text">WYK Group Limited Modern Slavery Statement</li>
+                <div class="col-md-3 col-sm-6 mb-4 footer-column">
+                    <ul class="list-unstyled">
+                        <li class="font-weight-bold"><a href="#">Policies</a></li>
+                        <li>WYK Group Limited Privacy Policy</li>
+                        <li>WYK Group Limited ED & I Policy</li>
+                        <li>WYK Group Limited Carbon Reduction Policy</li>
+                        <li>WYK Group Limited Modern Slavery Statement</li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    
     
     
 
