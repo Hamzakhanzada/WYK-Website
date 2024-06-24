@@ -121,6 +121,7 @@ gap: 50px;
 }
 .btn-primary:hover {
     background-color: #e6683c;
+    color: black;
 }
 .btn-primary:focus {
     background-color: #e6683c !important;
@@ -284,6 +285,12 @@ margin-top: 72px;
 }
 body {
     background-color: #f5f5f5;
+}
+.manchester {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .custom-card {
