@@ -30,6 +30,12 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+.navigation-item {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+}
 
 .dropdown-menu {
     border-top: 1px solid white !important;
@@ -98,13 +104,14 @@ gap: 50px;
 .icons {
     gap: 20px;
 }
-.btn-touch {
+.btn-primary {
     background-color: #F28947;
     width: 135px;
     height: 40px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    color: #000;
     
     
 }
@@ -112,8 +119,18 @@ gap: 50px;
     background-color: #e6683c;
     color: white;
 }
-.btn-touch:hover {
+.btn-primary:hover {
     background-color: #e6683c;
+}
+.btn-primary:focus {
+    background-color: #e6683c !important;
+    outline: none !important;
+
+}
+.btn-primary:active {
+    background-color: #e6683c !important;
+    outline: none !important;
+
 }
 .form-control {
     background-color: none;
@@ -272,6 +289,7 @@ body {
 .custom-card {
     border: none;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .custom-card .card-img-top {
@@ -399,8 +417,8 @@ option:hover {
     border-radius: 8px;
     font-weight: 500;
     font-family:"Poppins", sans-serif; 
-
-    margin-top: 70px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .btn-learn-more:hover {
