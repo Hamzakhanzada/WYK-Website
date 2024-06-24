@@ -34,7 +34,8 @@ body {
     background-color: black !important;
     color: white !important;
     padding: 10px !important;
-    width: 100%;
+    border-radius: 10px;
+
 
 }
 .dropdown-item:hover {
@@ -42,7 +43,7 @@ body {
     background-color: black;
 }
 .dropdown-item {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .hero-section {
@@ -50,7 +51,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 100%;
-    min-height: 600px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ body {
     padding: 50px 0;
 }
 
-.hero-section::before {
+/* .hero-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -67,7 +67,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .hero-section .container {
     position: relative;
@@ -278,8 +278,16 @@ body {
     text-align: left;
 }
 
-
-
+option {
+    background-color: #e2e6ec;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+option:hover {
+    background-color: green !important;
+}
 .btn-tech {
     width: 296px;
     height: 40px;
@@ -449,18 +457,17 @@ line-height: 52px;
 .horizontal {
     border: 3px solid #e6683c ;
     border-radius: 8px;
-    width: 248px;
+    /* width: 248px; */
 }
 
-/* Add your custom styles here */
 .navbar-nav .nav-item .dropdown-menu {
-    background-color: #343a40; /* Ensure the dropdown menu background is dark */
+    background-color: #343a40; 
 }
 .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-    color: #fff; /* Ensure the dropdown items text is white */
+    color: #fff; 
 }
 .icons .icon img {
-    width: 20px; /* Adjust icon size as needed */
+    width: 20px;
 }
 .number {
     font-family: "Anton", sans-serif;
@@ -494,8 +501,8 @@ line-height: 52px;
 }
 .applied-learning {
     background-color: #F9CBAE;
-    width: 328px;
-    height: 158px;
+    /* width: 328px;
+    height: 158px; */
     border-radius: 16px;
     padding: 24px;
     
@@ -571,8 +578,8 @@ line-height: 52px;
     background-color: #f0f4f7;
     padding: 16px;
     border-radius: 16px;
-    width: 344px;
-    height: 224px;
+    /* width: 344px;
+    height: 224px; */
     
 }
 .limit-text {
@@ -694,9 +701,10 @@ background-color: #e6683c;
 
 }
 
+
 .submit:hover {
     background-color: #e6683c;
-    color: white;
+    color:black;
 }
 .submit {
     background-color: #F28947;
@@ -737,6 +745,9 @@ background-color: #e6683c;
     line-height: 24px;
 
 }
+.footer-top {
+    margin-top: 64px;
+}
 .footer-section {
     background-color: black;
     color: white;
@@ -750,6 +761,12 @@ background-color: #e6683c;
     font-family: "Poppins", sans-serif;
 
 
+}
+.info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .bold-text {
     font-size: 16px;
@@ -766,6 +783,15 @@ background-color: #e6683c;
 
 
 
+}
+.btn-learn-more:hover {
+    color: black;
+}
+.btn-contact-us:hover {
+    color: black !important;
+}
+.btn-tech:hover {
+    color: black !important;
 }
 .us {
     margin-top: 40px;
@@ -804,7 +830,6 @@ a:hover {
   
   @media screen and (max-width: 991px) {
     .applied-learning {
-        width: 300px;
         height: auto;
         margin: auto;
     }
@@ -847,29 +872,24 @@ a:hover {
     .form-controls {
         width: 100%;
     }
-    .btn-warning {
-        margin: auto;
-    }
+    
     .close {
         visibility: hidden;
     }
-    .icons {
-        margin: auto;
-    }
+   
     .btn-touch {
-        width: 100%;
         margin-bottom: 30px;
+         
     }
-    .nav-item {
-        margin: auto;
-    }
+    
+
     
   }
 
   
 @media screen and (max-width: 992px) {
     .applied-learning {
-        width: 250px;
+        /* width: 250px; */
         height: auto;
     
     
