@@ -112,6 +112,8 @@ gap: 50px;
     border: none;
     cursor: pointer;
     color: #000;
+    font-family: "Poppins", sans-serif;
+
     
     
 }
@@ -178,7 +180,7 @@ gap: 50px;
     background: transparent; /* Default background */
 }
 
-.icon.tiktok:hover::before {
+/* .icon.tiktok:hover::before {
     background: linear-gradient(45deg, blue, purple);
     cursor: pointer;
 }
@@ -198,8 +200,11 @@ gap: 50px;
 .icon.tiktok::before {
     -webkit-mask-image: url('images/Vector.svg');
     mask-image: url('images/Vector.svg');
-}
+} */
 
+.icons {
+    cursor: pointer;
+}
 .icon.youtube::before {
     -webkit-mask-image: url('images/Vector (1).svg');
     mask-image: url('images/Vector (1).svg');
