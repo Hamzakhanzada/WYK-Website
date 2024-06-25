@@ -8,14 +8,8 @@
     
 
 }
-body {
-    overflow-x: hidden !important;
 
-}
-.example::-webkit-scrollbar {
-    display: none;
-  }
-
+ 
 .top-bar {
     background-color: #F28947;
     position: relative;
@@ -788,7 +782,8 @@ background-color: #e6683c;
     margin-top: 64px;
 }
 .footer-section {
-    background-color: black;
+    background-color:#181818
+    ;
     color: white;
     padding: 48px;
     margin-top: 96px;
@@ -821,6 +816,27 @@ background-color: #e6683c;
     line-height: 24px;
 
 
+
+}
+.all-right {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+
+}
+.footer-list {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+
+}
+.font-weight-bold {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
 
 }
 .btn-learn-more:hover {
