@@ -105,6 +105,9 @@ gap: 50px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #000;
     font-family: "Poppins", sans-serif;
 
