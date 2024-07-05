@@ -29,6 +29,7 @@
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     line-height: 20px;
+    color: white !important;
 }
 
 .dropdown-menu {
@@ -62,8 +63,7 @@
     align-items: center;
     position: relative;
     color: white;
-    padding: 48px 32px 48px 32px
-    ;
+    padding: 48px 32px 48px 32px;
 }
 
 .hero-section::before {
@@ -76,12 +76,12 @@
 }
 
 .hero-section .container {
-    position: relative;
+    position: relative; 
     z-index: 2;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: white;
+    color: white !important;
     transition: color 0.2s;
 }
 
@@ -158,24 +158,7 @@ gap: 50px;
     z-index: 1;
 }
 
-.icon::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    transition: 0.3s ease;
-    -webkit-mask-image: url('images/Vector.svg'); /* Default mask image */
-    mask-image: url('images/Vector.svg'); /* Default mask image */
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    background: transparent; /* Default background */
-}
+
 
 /* .icon.tiktok:hover::before {
     background: linear-gradient(45deg, blue, purple);
@@ -699,15 +682,24 @@ background-color: #e6683c;
     line-height: 40px;
 }
 .form-controls {
-    background-color: #E2E6EC;
-    outline: none;
-    width: 260px;
+    background-color: #E2E6EC !important;
+    outline: none !important;
+    /* width: 260px; */
     height: 56px;
-    border: none;
+    border: none !important;
     border-radius: 8px;
     padding: 12px 16px 12px 16px;
     
 
+}
+::placeholder {
+    color: #8d98af !important;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+.input:focus {
+    outline: 5px solid #8d98af !important;
 }
 .form-name {
     margin-top: 32px;
@@ -732,6 +724,9 @@ background-color: #e6683c;
     background-color:#E2E6EC ;
     border: none;
     outline: none;
+    color: #8d98af !important;
+    font-size: 16px;
+
 
     
 
@@ -869,6 +864,234 @@ a:hover {
     text-decoration: none;
     color: whitesmoke;
 }
+.btn-danger {
+    background-color: #F28947 !important;
+    width: 135px !important;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #000 !important;
+    font-family: "Poppins", sans-serif !important;
+}
+.btn-danger:hover {
+    background-color: #e6683c !important;
+    color: black !important;
+}
+.dropdown-menues {
+    color: white !important;
+    background-color: black !important;
+}
+.confidence {
+    font-family: "Anton", sans-serif;
+    font-size: 57px;
+    margin-top: 128px;
+    font-weight: 400;
+    line-height: 64px;
+}
+.thrive-text {
+    font-family: "Poppins", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.nav-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.nav-bar a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.nav-bar .btn {
+    background-color:  #F28947;
+    padding: 10px 24px 10px 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 500;
+    border: none;
+}
+.nav-bar .btn:hover {
+    background-color:  #e6683c;
+
+    border: none;
+}
+.nav-links a:hover {
+    text-decoration-color: #F28947;
+    color: #F28947;
+    font-weight: bold;
+}
+
+.content-section {
+    padding: 30px;
+    background-color:#fef6f1;
+    border-radius: 10px;
+}
+.content-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.content-section h2 {
+    color: #000;
+    font-weight: bold;
+}
+.Benefits {
+    font-family: "Anton", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+.link {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 700;
+
+}
+.fix-skill {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+.exist {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif ;
+    font-weight: 400;
+
+
+}
+
+
+.btn-light.active {
+    background-color: #ffcc99;
+    color: black;
+}
+
+.card {
+    background-color:#FEF6F1 !important;
+    border: none !important;
+    border-radius: 16px !important;
+    padding: 16px !important;
+    width: 680px;
+    height: 200px;
+    
+}
+
+.card-title {
+    color: black;
+    font-size: 22px;
+    font-weight: 600 !important;
+    font-family: "Poppins", sans-serif ;
+    margin-top: 16px;
+
+}
+.card-text  {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif ;
+    line-height: 24px;
+
+
+    
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+}
+
+.text-section {
+    margin-bottom: 60px;
+}
+
+.img-fluid {
+    max-width: 100px; 
+    border-radius: 8px; 
+}
+.hire-talent {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Anton", sans-serif;
+
+
+}
+.btn-lights {
+    background-color: #F9CBAE !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+    width: 328px;
+    height: 56px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    font-size: 16px;
+    font-weight: 700 !important;
+    font-family: "Poppins", sans-serif ;
+
+
+}
+.btn-light {
+    background-color: #F0F4F7 !important;
+    border-radius: 16px !important;
+    padding:20px !important;
+    width: 328px;
+    height: 56px;
+    display: flex !important;
+    justify-content: start !important ;
+    align-items: center !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+    font-family: "Poppins", sans-serif ;
+
+    
+
+    
+}
+.btn-light:hover {
+    background-color: #F9CBAE !important;
+    
+}
+.the-hiring {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Anton", sans-serif;
+    line-height: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -876,6 +1099,7 @@ a:hover {
 @media screen and (min-width: 991px) {
     .applied-learning {
         height: auto;
+
         width: auto;
     
     
