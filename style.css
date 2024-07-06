@@ -1064,9 +1064,70 @@ a:hover {
     font-family: "Anton", sans-serif;
     line-height: 52px;
 }
+/* .wrapper {
+    position: relative;
+}
+.wrapper::after {
+    position:absolute;
+    content: url(images/yellow-circle.png);
+    top: 0;
+    left: 0;
+}
+*/
+/* .position {
+    position: relative;
+} */
+/* .position::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 1;
 
+} */
+ .index {
+    position: relative;
+    top: 0px;
+    left: 0;
+ }
+ /* body {
+    background-color: #444;
+} */
 
+.container {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.step {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #d3f626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+}
+.step1 { top: 20px; left: 20px; }
+.step2 { top: 260px; left: 180px; }
+.step3 { top: 20px; left: 340px; }
+.step4 { top: 260px; left: 500px; }
 
+.line {
+    position: absolute;
+    width: 2px;
+    height: 200px;
+    background: purple;
+    border-top: 3px dotted purple;
+}
+.line1 { top: 120px; left: 110px; transform: rotate(45deg); width: 150px; height: 0; }
+.line2 { top: 360px; left: 270px; transform: rotate(-45deg); width: 150px; height: 0; }
+.line3 { top: 120px; left: 430px; transform: rotate(45deg); width: 150px; height: 0; }
 
 
 
